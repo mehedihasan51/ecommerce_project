@@ -17,6 +17,8 @@ class DatabaseSeeder extends Seeder
            $this->call(ProductSeeder::class);
            $this->call(ProductSliderSeeder::class);
            $this->call(ProductDetailSeeder::class);
+           $this->call(SslcommerzAccountSeeder::class);
+
 
         // \App\Models\User::factory(10)->create();
 
